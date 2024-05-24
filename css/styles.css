@@ -147,6 +147,7 @@ body {
   width: 130%;
   height: 100%;
   padding-right: 60px;
+  object-fit: cover;
   /* max-width: 300%; */
   /* padding-right: 550px; */
 }
@@ -261,6 +262,11 @@ body {
 .btn.active {
   border-color: #1c931c;
 }
+
+.btn:hover {
+  border-color: #1c931c;
+}
+
 
 /*---------------------------Education & Internship---------------------------*/
 
