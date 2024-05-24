@@ -189,17 +189,20 @@
                 <p>Get In Touch</p>
             </div>
             <div class="contact">
-                <form name="submitToGoogleSheet">
+                <form method="post"
+                    action="https://script.google.com/macros/s/AKfycbyisfGs-qs9Mt2fPDd8COYMLDsP0S8kTjbyuC56pF-FmHWjc8k6mEx8h73HyOYrpxt1/exec"
+                    name="submitToGoogleSheet">
                     <input type="text" name="NAME" placeholder="Name" required>
                     <input type="email" name="EMAIL" placeholder="Email" required>
                     <input type="text" name="SUBJECT" placeholder="Subject">
                     <textarea name="MESSAGE" placeholder="Message"></textarea>
                     <input type="submit" value="Send Message" class="submit">
                 </form>
-                <span id="msg"></span>
             </div>
         </div>
     </section>
+
+    <script src="js/contact.js"></script>
 
     <script src="https://code.jquery.com/jquery-3.7.0.min.js"
         integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
